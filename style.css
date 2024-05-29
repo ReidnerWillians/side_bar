@@ -1,50 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    background-color: blue;
+body {
+  width: 100%;
+  background-color: blue;
 }
 
-.sidebar-top{
-    width: 300px;
-    height: 100vh;
-    background-color: rgb(128, 80, 233);
-    position: relative;
+.sidebar-top {
+  width: 300px;
+  height: 100vh;
+  background-color: rgb(128, 80, 233);
+  position: relative;
 }
 
-.sidebar-top img{
-    width: 80px;
-    margin-left: 35px;
-    margin-top: 20px;
+.sidebar-top img {
+  width: 80px;
+  margin-left: 35px;
+  margin-top: 20px;
 }
 
-.sidebar-top span{
-    font-size: 40px;
-    padding-left: 30px;
-    color: #fff;
+.sidebar-top span {
+  font-size: 40px;
+  padding-left: 30px;
+  color: #fff;
 }
 
-.menu{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-left: 40px;
+.menu {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 40px;
 }
 
-.menu a{
-    text-decoration: none;
-    list-style: none;
-    color: #fff;
+.menu a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
 }
 
-
-
-main .conteudo{
-    width: 100% - 300px;
-    background-color: rgb(159, 159, 181);
+main .conteudo {
+  width: 100% - 300px;
+  background-color: rgb(159, 159, 181);
 }
